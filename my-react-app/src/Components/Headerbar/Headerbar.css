@@ -1,0 +1,26 @@
+#myHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+.navMenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.navMenu li{
+    list-style: none;
+    font-size:20px;
+    
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 50px;
+}
