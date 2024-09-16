@@ -1,0 +1,151 @@
+.container {
+    max-width: 900px;
+    margin-left: -300px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+ 
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+
+  .heading{
+    margin: 30px 50px;
+    text-align: center;
+    font-size: 60px;
+
+  }
+  
+  .button-group {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: #00a824;
+    color: #0c0000;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+  }
+  
+  .button:hover {
+    background-color: #00cd11;
+  }
+  
+  /* .data-table {
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 12px;
+    border: 1px dashed white;
+    
+  } */
+  .data-table {
+
+    overflow-y: scroll;
+   
+    overflow-y: hidden;
+    max-height: 66.4vh;
+    
+    margin-top: 22px;
+    
+    margin: 15px;
+    padding-bottom: 20px;
+    
+}
+  
+ /* table {
+    width: 50%;
+    border-collapse: separate;
+    border-spacing: 0px;
+    
+  }*/
+  
+  /*table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }*/
+  
+
+  table {
+    
+    min-width: max-content;
+    
+    border-collapse: separate;
+    border-spacing: 0px;    
+    border: 5px solid rgb(68, 66, 66);
+    
+}
+
+
+
+table th{
+    position: sticky; 
+    top: 0px;
+    
+    background-color: #eb4d4b;
+    color: rgb(11, 11, 11);
+    
+    text-align: center;
+    font-weight: normal;
+    font-size: 18px;
+    outline: 0.7px solid black;
+    border: 1.5px solid black;
+
+} 
+
+tbody tr{
+    background: rgb(130, 130, 130);
+    color: black;
+}
+
+
+
+table th, table td {
+    
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+table td {
+    text-align: left;
+    
+    font-size: 15px;
+    border: 1px solid rgb(177, 177, 177);
+    padding-left: 20px;
+    
+}
+
+  .prediction {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .prediction h3 {
+    color: #eaeef2;
+  }
+  
+body{
+    background: linear-gradient(rgba(8,0,58,0.6),rgba(8,0,58,0.6)), url('../../assets/cloud_security.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+  color: #00cd11;
+}
