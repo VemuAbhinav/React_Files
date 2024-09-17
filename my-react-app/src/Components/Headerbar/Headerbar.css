@@ -11,6 +11,10 @@
     border: 2px solid rgba(255, 255, 255,0.18);
 }
 
+nav{
+    display: flex;
+}
+
 .heading{
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -43,5 +47,36 @@
     height: 3px;
     border-radius: 10px;
     background: #FF4141;
+
+}
+
+.menu-icon{
+    display: none;
+}
+
+@media (max-width:940px){
+    nav{
+        padding: 15px 0px;
+    }
+    nav ul{
+        position: fixed;
+        top: 0;
+        right: 0;
+        
+        z-index: -1;
+        width: 200px;
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        background: rgb(68, 67, 67);
+        padding: 70px 2px;
+    }
+    .menu-icon{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+    }
+
+    
 
 }
