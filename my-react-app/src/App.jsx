@@ -8,6 +8,8 @@ import profilePic4 from './assets/profilePic4.png'
 import Headerbar from './Components/Headerbar/Headerbar'
 import Hero from './Components/Hero/Hero'
 import Background from './Components/Background/Background'
+import Display from './Components/Display/Display'
+import Display2 from './Components/Display2/Display2'
 
 
 
@@ -38,6 +40,8 @@ const App = () => {
       <Background heroCount={heroCount}/>
       <Headerbar/>
       <Hero  heroData={heroData[heroCount]} heroCount={heroCount} setHeroCount={setHeroCount}/>
+      <Display/>
+      <Display2/>
       
     </>
     

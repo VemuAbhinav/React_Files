@@ -75,9 +75,13 @@ nav{
         border: 2px solid rgba(255, 255, 255,0.18);
     }
 
+    .heading{
+        font-size: 30px;
+    }
+
     .hamburger-icon{
         display: block;
-        font-size: 30px;
+        font-size: 20px;
         cursor: pointer;
     }
 
