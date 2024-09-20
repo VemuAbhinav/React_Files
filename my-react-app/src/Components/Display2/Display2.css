@@ -2,4 +2,46 @@
     margin-top: 200px;
     min-height: 100vh;
     background: rgb(165, 163, 163);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rateCard{
+    display: flex;
+    background: linear-gradient(135deg,rgb(114, 3, 3),rgb(30, 29, 29));
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 60%;
+    min-height: 500px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+.rateCard p{
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.custom-icon{
+    cursor: pointer;
+    
+    
+}
+
+.custom-full-icon{
+    color: gold;
+
+    cursor: pointer;
+}
+
+.stars{
+    font-size: 100px;
+    
+    border: 1px solid black;
+
 }
