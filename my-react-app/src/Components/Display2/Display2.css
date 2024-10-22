@@ -11,7 +11,7 @@
 
 .rateCard{
     display: flex;
-    background: linear-gradient(135deg,rgb(114, 3, 3),rgb(30, 29, 29));
+    background: linear-gradient(135deg,rgb(20, 114, 3),rgb(85, 185, 205));
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -41,7 +41,7 @@
 
 .stars{
     font-size: 100px;
-    
+   
     border: 1px solid black;
 
 }
