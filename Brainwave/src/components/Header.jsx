@@ -49,7 +49,7 @@ const Header = () => {
         <a href="#signup" className="button hidden mr-8 text-n-1/30 transition-colors hover:text-n-1 lg:block ">New Account</a>
 
         <Button className="hidden lg:flex" href="#login">Sign IN</Button>
-        <Button className='ml-auto lg:hidden xl:hidden' px="px-3" onClick={toggleNavigation}>
+        <Button className='ml-auto lg:hidden' px="px-3" onClick={toggleNavigation}>
           <MenuSvg openNavigation={openNavigation}/>
         </Button>
 
